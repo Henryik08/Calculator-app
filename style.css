@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body{
     background-color:  rgba(38, 94, 158, 0.747);
 }
@@ -7,14 +9,34 @@ main{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-color:rgba(0, 0, 0, 0.557);
+    background-color:hsl(217,27%,21%);
     height: auto;
     border-radius: 20px;
 }
 .calculations{
-    width: 16.25rem;
+    width: 14rem;
     height: 11rem;
-    
+    position: relative;
+    left: 20px;
+    right: 20px;
+}
+.history{
+    color: hsl(223,11%,74%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    text-align: right;
+}
+.debug{
+    outline: solid 1px red;
+}
+.initial-calculation{
+    color: hsl(300,100%,100%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: large;
+    text-align: right;
+    position: relative;
+    top: 60%;
 }
 .buttons{
     padding: 10px 10px 10px 10px;
@@ -24,17 +46,27 @@ main{
     width:15rem;
     height:300px;
     place-items:  center;
-    
-   
 }
 .operators{
-    
     box-shadow: -2px -2px 12px -5px white;
     border-radius: 15px;
     width: 45px;
     height: 45px;
-    background-color: rgba(0, 0, 0, 0);
-    border-color: rgba(0, 0, 0, 0.368);
+    background-color: hsl(217,27%,21%);
+    border-color: hsl(217,27%,21%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: medium;
+}
+.funcion1{
+    color: hsl(219,9%,69%);
+}
+.funcion2{
+    color:hsl(36,96%,52%) ; 
+}
+.number{
+    color: hsl(180,33%,98%);
+    
 }
 
 .item1 {
