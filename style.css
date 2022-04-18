@@ -5,9 +5,12 @@ body{
 }
 
 main{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     background-color:hsl(217,27%,21%);
-    width: fit-content;
-    height: 529px;
+    height: 527px;
     border-radius: 20px;
 }
 
