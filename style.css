@@ -10,8 +10,11 @@ main{
     top: 50%;
     transform: translate(-50%, -50%);
     background-color:hsl(217,27%,21%);
-    height: auto;
+    height: 527px;
+    
     border-radius: 20px;
+    width: 320px;
+    
 }
 
 .calculations{
@@ -45,18 +48,20 @@ main{
 .buttons{
     padding: 10px 10px 10px 10px;
     display: grid;
-    gap: 10px 10px;
+    gap: 2px 2px;
     grid-template-columns: repeat(4, 1fr);
-    width:14.5rem;
+    width:auto;
     height:300px;
     place-items:  center;
 }
-
+.debug{
+    outline: 1px red solid;
+}
 .operators{
     box-shadow: -2px -2px 12px -5px hsl(216,13%,39%);
     border-radius: 15px;
-    width: 45px;
-    height: 45px;
+    width: 55px;
+    height: 50px;
     background-color: hsl(217,27%,21%);
     border-color: hsl(217,27%,21%);
     font-family: 'Poppins', sans-serif;
